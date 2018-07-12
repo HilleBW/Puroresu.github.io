@@ -1,0 +1,42 @@
+body {
+	background:#2F4F4F;
+	font-family: Calibri Light;
+}
+
+h1,li,p {
+	color:white;
+	li.double {border-style: double;}
+
+}
+
+a {
+	color:#9ACD32;
+}
+
+ul,li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+a:link {
+    	text-decoration: none;
+	border: 1px double white;
+	border-radius: 6px;
+	padding: 5px 10px;
+}
+
+a:visited {
+    	text-decoration: none;
+}
+
+a:hover {
+    	text-decoration: none;
+	color:#ADFF2F;
+	background:#008000;
+}
+
+a:active {
+    	text-decoration: none;
+	color:#008000;
+}
+
